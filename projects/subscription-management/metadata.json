@@ -1,0 +1,9 @@
+{
+  "id": "subscription-management",
+  "title": "Subscription Management",
+  "description": "Track recurring subscriptions, renewals, and expenses.",
+  "status": "draft",
+  "tags": ["finance", "subscriptions"],
+  "updatedAt": "2026-05-07",
+  "readiness": "idea"
+}
