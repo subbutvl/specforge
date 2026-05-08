@@ -33,6 +33,11 @@ export default function HomePage() {
                   {project.metadata.description}
                 </p>
 
+                <p className="text-zinc-500 mt-3 text-xs">
+                  {project.specs.length} spec
+                  {project.specs.length === 1 ? "" : "s"}
+                </p>
+
                 <div className="flex gap-2 mt-4 flex-wrap">
                   {/* badges for status and readiness */}
                   <Badge className={getStatusColor(project.metadata.status)}>

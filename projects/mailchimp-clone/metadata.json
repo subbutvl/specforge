@@ -1,0 +1,9 @@
+{
+  "id": "mailchimp-clone",
+  "title": "Mailchimp Clone (Marketing Team Platform)",
+  "description": "Marketing automation and email campaign management platform for teams.",
+  "status": "draft",
+  "tags": ["marketing", "automation", "email", "campaigns"],
+  "updatedAt": "2026-05-08",
+  "readiness": "spec-defined"
+}

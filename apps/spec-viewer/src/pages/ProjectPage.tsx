@@ -34,7 +34,7 @@ export default function ProjectPage() {
     : "# No spec selected";
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-100 flex">
+    <div className="h-screen bg-zinc-950 text-zinc-100 flex">
       <aside className="w-72 border-r border-zinc-800 p-4 overflow-auto">
         <Link
           to="/"
@@ -86,8 +86,8 @@ export default function ProjectPage() {
         </div>
       </aside>
 
-      <main className="flex-1 overflow-auto">
-        <div className="sticky top-0 z-10 border-b border-zinc-800 bg-zinc-950 px-8 py-4 flex items-center justify-between">
+      <main className="flex-1 min-h-0 flex flex-col">
+        <div className="shrink-0 border-b border-zinc-800 bg-zinc-950 px-8 py-4 flex items-center justify-between">
           <div>
             <h1 className="text-xl font-semibold">{activeSpec?.title}</h1>
           </div>
@@ -104,9 +104,9 @@ export default function ProjectPage() {
             </span>
           </div>
         </div>
-        <div className="p-5">
+        <div className="flex-1 min-h-0 overflow-auto p-5">
           {rawMode ? (
-            <pre className="bg-zinc-900 border border-zinc-800 rounded-md p-6 overflow-auto text-sm leading-7 whitespace-pre-wrap">
+            <pre className="bg-zinc-900 border border-zinc-800 rounded-md p-6 overflow-auto text-sm leading-7 whitespace-pre-wrap max-h-full">
               {markdown}
             </pre>
           ) : (

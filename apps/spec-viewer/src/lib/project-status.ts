@@ -22,6 +22,9 @@ export function getReadinessColor(readiness: string) {
     case "spec-ready":
       return "bg-blue-600 text-white";
 
+    case "spec-defined":
+      return "bg-blue-600 text-white";
+
     case "implementation-ready":
       return "bg-green-600 text-white";
 
