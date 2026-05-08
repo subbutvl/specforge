@@ -16,7 +16,7 @@ export const projects: ProjectData[] = [
       {
         id: "problem-brief",
         title: "Problem Brief",
-        path: "/projects/subscription-management/specs/01-problem-brief.md",
+        path: "subscription-management/problem-brief",
       },
     ],
   },

@@ -1,0 +1,9 @@
+{
+  "id": "{{project-id}}",
+  "title": "{{project-title}}",
+  "description": "{{short-description}}",
+  "status": "draft",
+  "tags": [],
+  "updatedAt": "{{date}}",
+  "readiness": "idea"
+}
